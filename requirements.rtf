@@ -1,0 +1,75 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 Useful info:   I wrote the initial Android App using Image Labelling \ldblquote programming hut kotlin image labelling {{\field{\*\fldinst{HYPERLINK https://www.youtube.com/watch?v=6ErbFQb8QS8 }}{\fldrslt{https://www.youtube.com/watch?v=6ErbFQb8QS8\ul0\cf0}}}}\f0\fs22\rdblquote  then I used the code here:\par
+{{\field{\*\fldinst{HYPERLINK https://drive.google.com/file/d/1aKN0o4Qffdt1nk6r21bdHojVVbKjRKww/view }}{\fldrslt{https://drive.google.com/file/d/1aKN0o4Qffdt1nk6r21bdHojVVbKjRKww/view\ul0\cf0}}}}\f0\fs22\par
+It then grew organically from there:\par
+\par
+\b What we expect of the App:\b0\par
+a. An end user has a button to take a photo from the Smartphone camera\par
+b. An end user has a button to select an image from the library on the Smartphone\par
+c. Either automatically initialized or manually initialized a Machine Learning Image Labelling function will label the object in the image with a text name \f1\endash  the text name will be displayed somewhere \lquote near\rquote  either the photo or the selected image, so that the end user has an idea about how accurate the ML Image Labeller has been\par
+\f0\lang2057 d. \f1\lang9 An end user can then either:\par
+i.                     Select a button that launches an human defined solution html page. The html page is named \ldblquote text name.html\rdblquote . This is a page we have written ourselves in html and will include a picture in png format and probably an url link to an instructables site \endash  this could open a web page view inside the app itself to show the html page or open up a new screen outside of the app to show the html page\par
+\par
+ii.                   Select a button that launches a pre-configured google search. The search item will be for \ldblquote text name + upcycled\par
+\par
+\f0\lang2057 e. \f1\lang9 An end user has a button which will allow them to see an html page of instructions on how to use the app, this page may also include url links to external web sites (like our shop or a internet web page that advises on re-cycling)\par
+\f0\lang2057 f. \f1\lang9 An end user has a button which allows them to open up an animation that is on YouTube. This is an animation we have made to show the journey and reasoning behind upcycling\par
+\f0\lang2057 g. \f1\lang9 The App can be closed by the end user\par
+ \par
+\par
+\b User Journey:\b0\par
+\f0\lang2057 a. \f1\lang9 The end user finds the app on their Smartphone and runs it.\par
+They see branding (logo, etc..) on the App screen/background/etc\'85\par
+\f0\lang2057 b. \f1\lang9 They select the camera button and they take a photo of an object (wine bottle), the ML function puts a name to the object in the photo (red wine bottle)\par
+\f0\lang2057 c. \f1\lang9 They see the name of the object (red wine bottle) somewhere near the photo image, so they can see if the ML has worked well enough to continue (wine bottle/glass bottle OK \endash  shampoo bottle not OK) \endash  they use their own human intelligence to decide to continue or not. They make take another photo or choose to photo something else.\par
+If they think the name of the object is good enough, they hit the human defined solution button and the App responds by showing an html page to them of how the object can be upcycled. The html page has been written by the FrankEinstein team and includes a png of the upcycled solution, it also includes a link to an instruction on how to upcycle it. The html page may be or may not be in the App itself\par
+\f0\lang2057 d. \f1\lang9 The user navigates back to the tools of the App.\par
+\f0\lang2057 e. \f1\lang9 They select the image from library button and select an image of a wooden pallet. The ML Image Labeller is run and it names it \lquote pallet\rquote . The user sees the word pallet somewhere near the image and agrees that the text name of pallet is close enough.\par
+\f0\lang2057 f. \f1\lang9 The end user selects the internet search button. This opens up another screen which shows the results of a google search for \ldblquote pallet upcycled\rdblquote  or \ldblquote upcycled pallet\rdblquote\par
+\f0\lang2057 g. \f1\lang9 The user can navigate back to the tools in the App.\par
+\f0\lang2057 h. \f1\lang9 The user selects the instructions and info button and can see written user guide with png images inside the App itself or outside of it as a separate screen. This page is html and will include a link to our shop and a link to an upcycling organisations website\par
+\f0\lang2057 i. \f1\lang9 The user navigates back to the tools of the App.\par
+\f0\lang2057 k. \f1\lang9 They select the video button, which open up a animation video on youtube we have made (written)\par
+Ideally they can reset/refresh the App without close/re-starting it, so they don\rquote t have any legacy images or text to confuse them\par
+\f0\lang2057 l. \f1\lang9 They can close the app\par
+\par
+If there is no internet access, then camera and image from gallery still work as do ML Image Labelling and human defined solution and instructions all work.\par
+Upcycling solutions from the Google internet search and Youtube will not respond but will fail or respond gracefully (text message no internet connection)\par
+\par
+We expect users to use the App in places where there is no internet access, so we expect to store the human solution html pages and pngs locally on the Smartphone and run the ML Image Labeller also locally on the Smartphone. i.e. html, pngs and ML should \f0\lang2057 already \f1\lang9 be bundled onto the phone \f0\lang2057 when a user\f1\lang9  download\f0\lang2057 s it\f1\lang9 .\par
+\par
+We do not\f0\lang2057  \f1\lang9 want to make API calls to the cloud based ML Image Labeller yet as we have to pay for these \endash  also the cloud version is very very precise and the text names are too \lquote exact\rquote  to allow us to write generic searches or make generic searches (e.g. 75ml chillean Merlot Tesco as opposed to glass bottle) \endash  I would like to be advised of options on ML from the cloud though as a nice to have and possibly human solutions html pages from the internet. i.e. the future is cloud not on device\par
+\par
+ \par
+\par
+ \par
+\par
+ \par
+\par
+\b What we need:\b0\par
+\f0\lang2057 1. \f1\lang9 App to run on Android AND IOS Smartphones (ideally to run on a wide variety of current or newer devices if possible) BT will help us get some devices to test\par
+\f0\lang2057 2. \f1\lang9 App should still run in a minimal mode when not connected to the internet (some functionality but not any internet functionality)\par
+\f0\lang2057 3. \f1\lang9 The FrankEinstein team need to be able to add extra \lquote html files and png images\rquote  to the app as we learn more, so we would need to be able to \lquote add to the code, change the ML TensorFlow Lite model, edit url http: links\rquote  or the assets folders and then recompile to release from google play or applestore as new versions\par
+\f0\lang2057 4. \f1\lang9 ML Image Labeller model to be ideally the one used above because we have the lable.txt file that comes with this so we know what html files to write. Some TFLITE models don\rquote t have a labels.txt file so we don\rquote t what is in them\par
+\f0\lang2057 5. \f1\lang9 Buttons need to be well spaced for \lquote older users\rquote  to access them\par
+\f0\lang2057 6. \f1\lang9 The App should be responsive in terms of time, i.e. fast to respond (<seconds) the times on the Android version are OK\par
+\f0\lang2057 7. \f1\lang9 To make it available on google play and applestore \endash  ideally as generically download, possibly as an invited Beta\par
+\f0\lang2057 8. \f1\lang9 Our branding and colours on the App\par
+ \par
+\par
+\b Support and Lifecycling:\b0\par
+\f0\lang2057 1. \f1\lang9 We would want the App coded with some code comments and current widgets, so it has some basic lifecycling that we can do\f0\lang2057  ourselves\f1\lang9  (as we learn more Flutter)\par
+e.g. we could learn to adjust the layout, text, colours, button spacing, button types, etc\'85\par
+\f0\lang2057 2. \f1\lang9 Once we have a version that worked on a number of devices then we would not expect any additional support or lifecycling assistance from you \endash  we get that code changes and things need patching \endash  but we have not thought to build that in. In all honesty if it worked for 12 months once downloaded onto a Smartphone \endash  that would be a success\par
+\f0\lang2057 3. \f1\lang9 I doubt we would have any use or interest for google App analytics\par
+\par
+\b\f0\lang2057 Payment:\par
+\b0 1. I have to reconfirm with BT, but last directive was to find a 'boutique coder' to generate a robust prototype\par
+2. BT would need an invoice for their own cost tracking if payment was money (as they have to do cost tracking)\par
+OR\par
+3. We could get hardware from BT shop and have this delivered to you to of a similar value - as you would need devices to develop on and test against, etc....\b\par
+\b0\lang9\par
+}
+ 
